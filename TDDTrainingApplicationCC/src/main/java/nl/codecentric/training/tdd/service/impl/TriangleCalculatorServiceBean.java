@@ -63,7 +63,7 @@ public class TriangleCalculatorServiceBean implements TriangleCalculatorService 
 
     private void validateTriangleSideIsNotNegative(Integer triangleSide){
         if(triangleSide < 0){
-            throw new NegativeNumberException("Triangle side cannot be negative");
+            throw new NegativeNumberException("Triangle side cannot be negative - stupid!");
         }
     }
 
